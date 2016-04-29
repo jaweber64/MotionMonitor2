@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5CC1E11CD2C1610059ADB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5CC1E01CD2C1610059ADB7 /* AppDelegate.swift */; };
+		0F5CC1E31CD2C1610059ADB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5CC1E21CD2C1610059ADB7 /* ViewController.swift */; };
+		0F5CC1E61CD2C1610059ADB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5CC1E41CD2C1610059ADB7 /* Main.storyboard */; };
+		0F5CC1E81CD2C1610059ADB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5CC1E71CD2C1610059ADB7 /* Assets.xcassets */; };
+		0F5CC1EB1CD2C1610059ADB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5CC1E91CD2C1610059ADB7 /* LaunchScreen.storyboard */; };
+		0F5CC1F61CD2C1610059ADB7 /* MotionMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5CC1F51CD2C1610059ADB7 /* MotionMonitorTests.swift */; };
+		0F5CC2011CD2C1610059ADB7 /* MotionMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5CC2001CD2C1610059ADB7 /* MotionMonitorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F5CC1F21CD2C1610059ADB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F5CC1D51CD2C1610059ADB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F5CC1DC1CD2C1610059ADB7;
+			remoteInfo = MotionMonitor;
+		};
+		0F5CC1FD1CD2C1610059ADB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F5CC1D51CD2C1610059ADB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F5CC1DC1CD2C1610059ADB7;
+			remoteInfo = MotionMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F5CC1DD1CD2C1610059ADB7 /* MotionMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5CC1E01CD2C1610059ADB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F5CC1E21CD2C1610059ADB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F5CC1E51CD2C1610059ADB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F5CC1E71CD2C1610059ADB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F5CC1EA1CD2C1610059ADB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F5CC1EC1CD2C1610059ADB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5CC1F11CD2C1610059ADB7 /* MotionMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5CC1F51CD2C1610059ADB7 /* MotionMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionMonitorTests.swift; sourceTree = "<group>"; };
+		0F5CC1F71CD2C1610059ADB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5CC1FC1CD2C1610059ADB7 /* MotionMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5CC2001CD2C1610059ADB7 /* MotionMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionMonitorUITests.swift; sourceTree = "<group>"; };
+		0F5CC2021CD2C1610059ADB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F5CC1DA1CD2C1610059ADB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5CC1EE1CD2C1610059ADB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5CC1F91CD2C1610059ADB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5CC1D41CD2C1610059ADB7 = {
+			isa = PBXGroup;
+			children = (
+				0F5CC1DF1CD2C1610059ADB7 /* MotionMonitor */,
+				0F5CC1F41CD2C1610059ADB7 /* MotionMonitorTests */,
+				0F5CC1FF1CD2C1610059ADB7 /* MotionMonitorUITests */,
+				0F5CC1DE1CD2C1610059ADB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F5CC1DE1CD2C1610059ADB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F5CC1DD1CD2C1610059ADB7 /* MotionMonitor.app */,
+				0F5CC1F11CD2C1610059ADB7 /* MotionMonitorTests.xctest */,
+				0F5CC1FC1CD2C1610059ADB7 /* MotionMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F5CC1DF1CD2C1610059ADB7 /* MotionMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				0F5CC1E01CD2C1610059ADB7 /* AppDelegate.swift */,
+				0F5CC1E21CD2C1610059ADB7 /* ViewController.swift */,
+				0F5CC1E41CD2C1610059ADB7 /* Main.storyboard */,
+				0F5CC1E71CD2C1610059ADB7 /* Assets.xcassets */,
+				0F5CC1E91CD2C1610059ADB7 /* LaunchScreen.storyboard */,
+				0F5CC1EC1CD2C1610059ADB7 /* Info.plist */,
+			);
+			path = MotionMonitor;
+			sourceTree = "<group>";
+		};
+		0F5CC1F41CD2C1610059ADB7 /* MotionMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F5CC1F51CD2C1610059ADB7 /* MotionMonitorTests.swift */,
+				0F5CC1F71CD2C1610059ADB7 /* Info.plist */,
+			);
+			path = MotionMonitorTests;
+			sourceTree = "<group>";
+		};
+		0F5CC1FF1CD2C1610059ADB7 /* MotionMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F5CC2001CD2C1610059ADB7 /* MotionMonitorUITests.swift */,
+				0F5CC2021CD2C1610059ADB7 /* Info.plist */,
+			);
+			path = MotionMonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F5CC1DC1CD2C1610059ADB7 /* MotionMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5CC2051CD2C1610059ADB7 /* Build configuration list for PBXNativeTarget "MotionMonitor" */;
+			buildPhases = (
+				0F5CC1D91CD2C1610059ADB7 /* Sources */,
+				0F5CC1DA1CD2C1610059ADB7 /* Frameworks */,
+				0F5CC1DB1CD2C1610059ADB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionMonitor;
+			productName = MotionMonitor;
+			productReference = 0F5CC1DD1CD2C1610059ADB7 /* MotionMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F5CC1F01CD2C1610059ADB7 /* MotionMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5CC2081CD2C1610059ADB7 /* Build configuration list for PBXNativeTarget "MotionMonitorTests" */;
+			buildPhases = (
+				0F5CC1ED1CD2C1610059ADB7 /* Sources */,
+				0F5CC1EE1CD2C1610059ADB7 /* Frameworks */,
+				0F5CC1EF1CD2C1610059ADB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F5CC1F31CD2C1610059ADB7 /* PBXTargetDependency */,
+			);
+			name = MotionMonitorTests;
+			productName = MotionMonitorTests;
+			productReference = 0F5CC1F11CD2C1610059ADB7 /* MotionMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F5CC1FB1CD2C1610059ADB7 /* MotionMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5CC20B1CD2C1610059ADB7 /* Build configuration list for PBXNativeTarget "MotionMonitorUITests" */;
+			buildPhases = (
+				0F5CC1F81CD2C1610059ADB7 /* Sources */,
+				0F5CC1F91CD2C1610059ADB7 /* Frameworks */,
+				0F5CC1FA1CD2C1610059ADB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F5CC1FE1CD2C1610059ADB7 /* PBXTargetDependency */,
+			);
+			name = MotionMonitorUITests;
+			productName = MotionMonitorUITests;
+			productReference = 0F5CC1FC1CD2C1610059ADB7 /* MotionMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F5CC1D51CD2C1610059ADB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Weber Solutions";
+				TargetAttributes = {
+					0F5CC1DC1CD2C1610059ADB7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2RY89Q7RCD;
+					};
+					0F5CC1F01CD2C1610059ADB7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2RY89Q7RCD;
+						TestTargetID = 0F5CC1DC1CD2C1610059ADB7;
+					};
+					0F5CC1FB1CD2C1610059ADB7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2RY89Q7RCD;
+						TestTargetID = 0F5CC1DC1CD2C1610059ADB7;
+					};
+				};
+			};
+			buildConfigurationList = 0F5CC1D81CD2C1610059ADB7 /* Build configuration list for PBXProject "MotionMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F5CC1D41CD2C1610059ADB7;
+			productRefGroup = 0F5CC1DE1CD2C1610059ADB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F5CC1DC1CD2C1610059ADB7 /* MotionMonitor */,
+				0F5CC1F01CD2C1610059ADB7 /* MotionMonitorTests */,
+				0F5CC1FB1CD2C1610059ADB7 /* MotionMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F5CC1DB1CD2C1610059ADB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5CC1EB1CD2C1610059ADB7 /* LaunchScreen.storyboard in Resources */,
+				0F5CC1E81CD2C1610059ADB7 /* Assets.xcassets in Resources */,
+				0F5CC1E61CD2C1610059ADB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5CC1EF1CD2C1610059ADB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5CC1FA1CD2C1610059ADB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F5CC1D91CD2C1610059ADB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5CC1E31CD2C1610059ADB7 /* ViewController.swift in Sources */,
+				0F5CC1E11CD2C1610059ADB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5CC1ED1CD2C1610059ADB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5CC1F61CD2C1610059ADB7 /* MotionMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5CC1F81CD2C1610059ADB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5CC2011CD2C1610059ADB7 /* MotionMonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F5CC1F31CD2C1610059ADB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F5CC1DC1CD2C1610059ADB7 /* MotionMonitor */;
+			targetProxy = 0F5CC1F21CD2C1610059ADB7 /* PBXContainerItemProxy */;
+		};
+		0F5CC1FE1CD2C1610059ADB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F5CC1DC1CD2C1610059ADB7 /* MotionMonitor */;
+			targetProxy = 0F5CC1FD1CD2C1610059ADB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F5CC1E41CD2C1610059ADB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F5CC1E51CD2C1610059ADB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F5CC1E91CD2C1610059ADB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F5CC1EA1CD2C1610059ADB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F5CC2031CD2C1610059ADB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F5CC2041CD2C1610059ADB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F5CC2061CD2C1610059ADB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotionMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeberSolutions.MotionMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F5CC2071CD2C1610059ADB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotionMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeberSolutions.MotionMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F5CC2091CD2C1610059ADB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MotionMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeberSolutions.MotionMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionMonitor.app/MotionMonitor";
+			};
+			name = Debug;
+		};
+		0F5CC20A1CD2C1610059ADB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MotionMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeberSolutions.MotionMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionMonitor.app/MotionMonitor";
+			};
+			name = Release;
+		};
+		0F5CC20C1CD2C1610059ADB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MotionMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeberSolutions.MotionMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MotionMonitor;
+			};
+			name = Debug;
+		};
+		0F5CC20D1CD2C1610059ADB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MotionMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeberSolutions.MotionMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MotionMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5CC1D81CD2C1610059ADB7 /* Build configuration list for PBXProject "MotionMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5CC2031CD2C1610059ADB7 /* Debug */,
+				0F5CC2041CD2C1610059ADB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F5CC2051CD2C1610059ADB7 /* Build configuration list for PBXNativeTarget "MotionMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5CC2061CD2C1610059ADB7 /* Debug */,
+				0F5CC2071CD2C1610059ADB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F5CC2081CD2C1610059ADB7 /* Build configuration list for PBXNativeTarget "MotionMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5CC2091CD2C1610059ADB7 /* Debug */,
+				0F5CC20A1CD2C1610059ADB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F5CC20B1CD2C1610059ADB7 /* Build configuration list for PBXNativeTarget "MotionMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5CC20C1CD2C1610059ADB7 /* Debug */,
+				0F5CC20D1CD2C1610059ADB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F5CC1D51CD2C1610059ADB7 /* Project object */;
+}
